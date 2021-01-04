@@ -34,20 +34,8 @@ function setup() {
 
 
 function draw() {
+	background("skyblue")
 	Engine.update(engine);
-	rectMode(CENTER);
-	background(bg);
-	fill("yellow");
-	stroke(0);
-	strokeWeight(4);
-	textSize(35);
-	textStyle("bold");
-	text("Press the UP arrow key to throw the trash", 55, 100)
-	textSize(27);
-	text(" You must throw it in the  dustbin and keep this house clean", 25, 135)
-	textSize(29.5);
-	text("And dont forget Cleanliness is next to Godliness", 45, 170);
-	dustbin1.display();
 	dustbin2.display()
 	dustbin3.display()
 	ground.display();
